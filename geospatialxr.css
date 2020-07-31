@@ -1,0 +1,77 @@
+#xrcontainer{
+	position: absolute;
+    right: 0;
+    top: 0;
+}
+
+#resizeButton{
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    cursor: pointer;
+    z-index: 1;
+    height: 10%;
+}
+
+.fullscreen {
+	width: 100%;
+    position: fixed !important;
+    z-index: 2;
+}
+
+.smallscreen {
+	width: 40%;
+	max-width: 600px;
+	overflow: hidden;	
+}
+
+.panel{
+   max-height: 80%;
+}
+
+.panel h3, .panel p{
+   font-size: 0.8vw;
+}
+
+.panel img{
+   max-width: 30%;
+}
+
+#instruction button{
+   padding: 1px 6px;
+   font-size: 0.9vw;
+   margin-top: 5px;
+}
+
+/* 2D MAP STYLING*/
+
+#top-container{
+    width: 100%;
+    height: 100%;
+}
+
+#map-container{
+    position: relative;
+    width: 75%;
+    height: 100%;
+}
+
+#map-canvas {
+    height: inherit;
+}
+
+/* RIGHT PANEL STYLING*/
+
+#risk-panel{
+    background-color: white;
+    height: 100%;
+    width: 25%;
+    top: 0;
+    right: 0;
+    position: absolute;
+    padding: 20px;
+}
+
+#progress {
+    z-index: 2;
+}
