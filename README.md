@@ -70,42 +70,38 @@ addPOI(pois);
 
 ## Use Cases
 
-### Q&A Mode
+### Flood
 
-#### COVID-19 Case Study
-An information dissemination chatbot for COVID-19 has been developed to demonstrate the presented framework’s usage and benefits due to the urgent demand as COVID-19 pandemic is progressing. According to web analytics service (SimilarWeb, 2020), the CDC website has received the highest number of visits (i.e. traffic) among websites that are served in English and that offer information and statistics on the spread of the COVID-19 infection. Thus, we have selected the [CDC’s official Frequently Asked Questions webpage](https://www.cdc.gov/coronavirus/2019-ncov/faq.html) as a source for the following use cases. On that page, there is a total of 119 questions spanning various topics ranging from COVID-19 basics to cleaning and disinfection as of June 20, 2020. Exactly all of these 119 Q&A items on the CDC page have successfully been extracted with a 100% precision and recall with Instant Expert's heuristic parsing algorithm.
+A case study for flood management use case for Iowa City, IA, showing a flood animation and relevant data layers (i.e. stream gauges, rain gauges, hydro stations for groundwater and soil moisture data, estimated flood damages for current or forecasted flood scenarios, and traffic congestion).
 
-- To test this example by yourself, navigate to [examples/faq/faq-model/cdc](examples/faq/faq-model/cdc) and run *index.html* on supported browsers.
+Flooding Use Case
+:-------------------------:
+![Screenshot 1](images/flood.png)
 
-Conversation Screen | List of Example Questions
-:-------------------------:|:-------------------------:
-![Screenshot 1](figures/screenshots/cdc-1.png)  |  ![Screenshot 2](figures/screenshots/cdc-2.png)
+### Wildfire
 
-As a way to quantify how flexible the Instant Expert is in terms of accurately mapping question variations that share the same intent, a test set is generated. The test set contains the original FAQ question, answer, and one natural language question that expects the same answer with different phrasing. For objectivity, a third-party software (i.e. QuillBot), which is a machine learning-powered paraphraser and sentence restructurer, is utilized to produce high-variance natural language questions with a similar meaning to the original. Additionally, the test set also contains three questions that the CDC’s FAQ cannot and should not answer, taken from the US Federal Drug Administration’s (FDA) FAQ webpage. For measurements, a benchmark code has been written to experiment with a broad range of confidence threshold values with respect to the precision and recall values. Both the benchmark code and a complete test set can be found [examples/faq/_benchmark](examples/faq/_benchmark).
+A case study for wildfire use case for Tucson, AZ, showing a fire animation and relevant data layers (i.e. characteristics and center of the wildfire, stranded groups of people detected by drones or emergency calls, air quality and gas measurements in the area, first responder vitals, and traffic congestion).
 
-In order to quantify the model’s effectiveness, precision, recall, and f1-score metrics have been selected for this imbalanced classification problem with multiple classes as formulated below (Sokolova and Lapalme, 2009).
+Wildfire Use Case
+:-------------------------:
+![Screenshot 1](images/fire.png)
 
-![Formulas](figures/formulas.png)
+### Transportation
 
-Precision, recall, and f1-score values for different confidence thresholds based on generated test data is shown below.
+A case study for transportation use case for Richmond, VA, showing relevant data layers (i.e. voltage detectors, radiation spills, constructions, accident reports, and traffic congestion).
 
-![Scores](figures/scores.png)
+Transportation Use Case
+:-------------------------:
+![Screenshot 1](images/transit.png)
 
-### Knowledge Engine Mode (External)
+### Active Shooter
 
-#### Microsoft Cognitive Services - Project Answer Search
-We have developed an open-source example use case to use Expert Web Component to ask natural language questions to get factual responses using [the Project Answer Search by Microsoft Cognitive Services Lab](https://labs.cognitive.microsoft.com/en-us/project-answer-search).
+A case study for law enforcement, showing relevant data layers (i.e. detected gunshots, responding officers and their vitals, objects of interest, calls for dispatch, and traffic congestion).
 
-- To test this example by yourself, navigate to [examples/engine/bing-bot/use-case](examples/engine/bing-bot/use-case) and run *index.html* on supported browsers.
-  - It uses an engine that is hosted on Heroku for free, and it is subject to limitations.
-  - The first time a question is asked, system might take few seconds to wake up Heroku. After that, the responses should be instantaneous.
-  - It is only intended for demonstration purposes, and not advised and allowed for production use.
-  
-- To modify/host this example yourself, please follow the directions on [examples/engine/bing-bot/bot-source](examples/engine/bing-bot/bot-source)
+Active Shooter Use Case
+:-------------------------:
+![Screenshot 1](images/shooter.png)
 
-Conversation Screen | List of Example Questions
-:-------------------------:|:-------------------------:
-![Screenshot 1](figures/screenshots/bing-1.png)  |  ![Screenshot 2](figures/screenshots/bing-2.png)
 
 ## Supported Browsers
 
