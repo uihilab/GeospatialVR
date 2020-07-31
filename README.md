@@ -125,6 +125,7 @@ This framework is currently a functioning prototype, and is not suitable for use
 - Allow users to create rooms for multiuser.
 - Race condition exists when multiple users interact at the same environment.
 - Always initialize the map at the same location in the virtual room regardless of the location's elevation.
+- Allow developers to create custom POI labels by providing color, icon, and font through JS.
 - and more...
 
 ## License
