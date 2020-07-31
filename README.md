@@ -14,9 +14,9 @@
   - [Flood](#flood)
   - [Wildfire](#wildfire)
   - [Transportation](#transportation)
-  - [Active Shooter](#active_shooter)
-- [Supported Browsers](#supported-browsers)
+  - [Active Shooter](#active-shooter)
 - [Feedback](#feedback)
+- [To-Do](#to-do)
 - [License](#license)
 - [Acknowledgements](#acknowledgements)
 
@@ -118,7 +118,7 @@ Active Shooter Use Case
 
 Feel free to send us feedback by filing an issue.
 
-## TODO
+## To-Do
 
 This framework is currently a functioning prototype, and is not suitable for use at an operational level. 
 
