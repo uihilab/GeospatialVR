@@ -30,16 +30,42 @@ This repository provides a boilerplate to use GeospatialVR. Just download and ru
 
 To examine how the data is provided and visualizations are managed for the VR environment, check out [geospatialxr.js](script/geospatialxr.js)
 
-As a brief summary of functionality:
+As a brief summary of basic functionality:
 
 - Load location on the map
 ```js
-updateMapLocation(lat, lon, zoom) // default zoom is 16
+updateMapLocation(lat, lon, zoom); // default zoom is 16
 ```
 
 Extend current map by loading more tiles
-```html
-extendMap(west, east, north, south) // for initial map, 1 tile is loaded per each direction
+```js
+extendMap(west, east, north, south); // for initial map, 1 tile is loaded per each direction
+```
+
+Enable traffic layer on active map
+```js
+enableTraffic();
+```
+
+Add points of interest with labels on the map
+```js
+var pois = {"pois": [
+                {"lat": 37.527453997298124, 
+                  "lon":  -77.45388267315083, 
+                  "type": "Police", 
+                  "height": 66,
+                  "content": "Sgt. Ray Martinez \nShots Fired: 3\nPulse: 119 bpm\nSpO2: 95.1%"},
+                {"lat": 37.527490508593274, 
+                  "lon":  -77.4538472520168, 
+                  "type": "Police", 
+                  "height": 45,
+                  "content": "Lieut. Joe West \nShots Fired: 4\nPulse: 109 bpm\nSpO2: 95.8%"},
+      ]};
+addPOI(pois);
+
+// Type parameter refers to the label styling. Currently available label types:
+// Warning, Accident, Radioactive, SensorGeneric, StreamSensor, RainGauge, Soil, Shooting, Police, Unknownpackage, Damage, Fireman
+
 ```
 
 ## Use Cases
