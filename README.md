@@ -114,23 +114,18 @@ Active Shooter Use Case
 ![Screenshot 1](images/shooter.png)
 
 
-## Supported Browsers
-
-The presented web component is supported by default in;
-
-- Google Chrome
-- Mozilla Firefox
-- Opera
-- Safari
-- Microsoft Edge
-
-The speech recognition is only supported in Google Chrome, Opera, and Microsoft Edge.
-
-Sources: [Mozilla](https://developer.mozilla.org/en-US/docs/Web/Web_Components), [W3Counter](https://www.w3counter.com/globalstats.php), [Can I Use Speech Recognition](https://caniuse.com/#search=speech)
-
 ## Feedback
 
 Feel free to send us feedback by filing an issue.
+
+## TODO
+
+This framework is currently a functioning prototype, and is not suitable for use at an operational level. 
+
+- Allow users to create rooms for multiuser.
+- Race condition exists when multiple users interact at the same environment.
+- Always initialize the map at the same location in the virtual room regardless of the location's elevation.
+- and more...
 
 ## License
 
