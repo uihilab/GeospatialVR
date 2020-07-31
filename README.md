@@ -135,4 +135,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 This project is developed by the University of Iowa Hydroinformatics Lab (UIHI Lab): [https://hydroinformatics.uiowa.edu/](https://hydroinformatics.uiowa.edu/).
 
-This project also utilizes Mapbox Unity SDK and Mozilla Unity WebXR Exporter.
+This project utilizes Mapbox Unity SDK and Mozilla Unity WebXR Exporter.
