@@ -67,7 +67,16 @@ addPOI(pois);
 
 // Type parameter refers to the label styling. Currently available label types:
 // Warning, Accident, Radioactive, SensorGeneric, StreamSensor, RainGauge, Soil, Shooting, Police, Unknownpackage, Damage, Fireman
+```
 
+Add fire animation to given location(s)
+```js
+var firePOIs = {"pois": [
+                {"lat": 32.378172,
+                  "lon":  -110.948663,
+                  "height": 0},
+      ]};
+generateFire(firePOIs);
 ```
 
 ## Use Cases
