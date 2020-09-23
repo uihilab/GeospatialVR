@@ -28,7 +28,7 @@ This project introduces GeospatialVR, an open-source collaborative virtual reali
 
 ## How To Use
 
-This repository provides a boilerplate to use GeospatialVR. Just download and run the "index.html".
+This repository provides a boilerplate to use GeospatialVR. Simply download and run the "index.html".
 
 To examine how the data is provided and visualizations are managed for the VR environment, check out [geospatialxr.js](script/geospatialxr.js)
 
