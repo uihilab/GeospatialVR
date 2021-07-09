@@ -141,4 +141,5 @@ This project utilizes Mapbox Unity SDK and Mozilla Unity WebXR Exporter.
 
 ## References
 
-* Ramirez, C.E., Sermet, Y., Molkenthin, F. and Demir, I., 2021. HydroLang: An Open-Source Web-Based Programming Framework for Hydrological Sciences. https://doi.org/10.31223/X5M31D
+* Sermet, Y. and Demir, I., 2020. GeospatialVR: A Web-based Virtual Reality Framework for Collaborative Environmental Simulations. https://doi.org/10.31223/osf.io/ks2yz
+* Sermet, Y. and Demir, I., 2020, November. An Immersive Decision Support System for Disaster Response. In 26th ACM Symposium on Virtual Reality Software and Technology (pp. 1-3). https://doi.org/10.1145/3385956.3422087
