@@ -141,5 +141,5 @@ This project utilizes Mapbox Unity SDK and Mozilla Unity WebXR Exporter.
 
 ## References
 
-* Sermet, Y. and Demir, I., 2020. GeospatialVR: A Web-based Virtual Reality Framework for Collaborative Environmental Simulations. https://doi.org/10.31223/osf.io/ks2yz
+* Sermet, Y. and Demir, I., 2021. GeospatialVR: A web-based virtual reality framework for collaborative environmental simulations. Computers & Geosciences, p.105010. https://doi.org/10.1016/j.cageo.2021.105010
 * Sermet, Y. and Demir, I., 2020, November. An Immersive Decision Support System for Disaster Response. In 26th ACM Symposium on Virtual Reality Software and Technology (pp. 1-3). https://doi.org/10.1145/3385956.3422087
