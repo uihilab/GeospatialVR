@@ -18,8 +18,7 @@
 - [Feedback](#feedback)
 - [To-Do](#to-do)
 - [License](#license)
-- [Acknowledgements](#acknowledgements)
-- [References](#references)
+- [Acknowledgements & Citation](#acknowledgements--citation)
 
 ## Introduction
 
@@ -133,13 +132,12 @@ This framework is currently a functioning prototype, and is not suitable for use
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Acknowledgements
+## Acknowledgements & Citation
 
 This project is developed by the University of Iowa Hydroinformatics Lab (UIHI Lab): [https://hydroinformatics.uiowa.edu/](https://hydroinformatics.uiowa.edu/).
 
 This project utilizes Mapbox Unity SDK and Mozilla Unity WebXR Exporter.
 
-## References
+> Sermet, Y. and Demir, I., 2021. GeospatialVR: A web-based virtual reality framework for collaborative environmental simulations. Computers & Geosciences, p.105010. https://doi.org/10.1016/j.cageo.2021.105010
 
-* Sermet, Y. and Demir, I., 2021. GeospatialVR: A web-based virtual reality framework for collaborative environmental simulations. Computers & Geosciences, p.105010. https://doi.org/10.1016/j.cageo.2021.105010
-* Sermet, Y. and Demir, I., 2020, November. An Immersive Decision Support System for Disaster Response. In 26th ACM Symposium on Virtual Reality Software and Technology (pp. 1-3). https://doi.org/10.1145/3385956.3422087
+> Sermet, Y. and Demir, I., 2020, November. An Immersive Decision Support System for Disaster Response. In 26th ACM Symposium on Virtual Reality Software and Technology (pp. 1-3). https://doi.org/10.1145/3385956.3422087
